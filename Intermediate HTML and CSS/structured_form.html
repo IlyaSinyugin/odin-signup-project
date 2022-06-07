@@ -8,23 +8,28 @@
 </head>
 <body>
     <form>
-        <fieldset>
-            <legend>
-                Fruit juice size
-            </legend>
-            <p>
-                <input type="radio" name="size" id="size_1" value="small">
-                <label for="size_1">Small</label>
-            </p>
-            <p>
-                <input type="radio" name="size" id="size_2" value="medium">
-                <label for="size_2">Medium</label>
-            </p>
-            <p>
-                <input type="radio" name="size" id="size_3" value="large">
-                <label for="size_3">Large</label>
-            </p>
-        </fieldset>
-    </form>
+        <p>
+          <label for="search">search: </label>
+          <input id="search" name="search" type="search">
+        </p>
+        <p>
+          <label for="text">text: </label>
+          <input id="text" name="text" type="text">
+        </p>
+        <p>
+          <label for="date">date: </label>
+          <input id="date" name="date" type="datetime-local">
+        </p>
+        <p>
+          <label for="radio">radio: </label>
+          <input id="radio" name="radio" type="radio">
+        </p>
+        <p>
+          <label for="checkbox">checkbox: </label>
+          <input id="checkbox" name="checkbox" type="checkbox">
+        </p>
+        <p><input type="submit" value="submit"></p>
+        <p><input type="button" value="button"></p>
+      </form>
 </body>
 </html>
